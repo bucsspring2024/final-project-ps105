@@ -1,18 +1,18 @@
 
 :warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 
-# << Project Title >>
-## CS110 Final Project  << Semester, Year >>
+# Flying Pigeon
+## CS110 Final Project  Spring , 2024
 
-## Team Members
+1 Team Member
 
-<< List team member names >>
+Team member names: Selina
 
 ***
 
 ## Project Description
 
-<< Give an overview of your project >>
+My project aims to combine Flappy Bird and Crossy Road. Esentially it is like Crossy Road expect it will have a pigeon flying across the sky and the cars will be replaced with airplanes or other birds and helecopters and such.
 
 ***    
 
@@ -30,11 +30,11 @@
 
 ### Features
 
-1. << Feature 1 >>
-2. << Feature 2 >>
-3. << Feature 3 >>
-4. << Feature 4 >>
-5. << Feature 5 >>
+1. Click to start tab
+2. Moveable character
+3. Obsticle collison
+4. Moving background
+5. Game over screen
 
 ### Classes
 
