@@ -26,7 +26,54 @@ My project aims to combine Flappy Bird and Crossy Road. Esentially it is like Cr
 
 ![final gui](assets/finalgui.jpg)
 
-## Program Design
+## Program Design > Classes
+
+class Pigeon:
+    """
+    Represents the player-controlled character in the game.
+    """
+
+    def __init__(self, x, y, img_file):
+        """
+        Initializes the pigeon object.
+        Args:
+            - x : int - starting x coordinate
+            - y : int - starting y coordinate
+            - img_file : str - path to img file
+        """
+
+class Obstacle:
+    """
+    Represents the obstacles in the game that the pigeon must avoid.
+    """
+
+    def __init__(self, x, y, img_file):
+        """
+        Initializes the obstacle object.
+        Args:
+            - x : int - starting x coordinate
+            - y : int - starting y coordinate
+            - img_file : str - path to img file
+        """
+
+    def update_position(self, x, y):
+        """
+        Updates the position of the obstacle.
+        Args:
+            - x : int - new x coordinate
+            - y : int - new y coordinate
+        Returns:
+            None
+        """
+
+    def detect_collision(self):
+        """
+        Detects collision with the pigeon.
+        Args:
+            None
+        Returns:
+            None
+        """
 
 ### Features
 
