@@ -90,8 +90,57 @@ class Obstacle:
 
 ## ATP
 
-| Step                 |Procedure             |Expected Results                   |
-|----------------------|:--------------------:|----------------------------------:|
-|  1                   | Run Counter Program  |GUI window appears with count = 0  |
-|  2                   | click count button   | display changes to count = 1      |
-etc...
+Test Case 1: Player Interaction
+
+Test Description: Confirm that the player can jump and aviod taxis successfully. 
+
+Test Steps:
+1. start the game.
+2. Observe the character's inital position and the movement of the taxi.
+3. Tap the screen at the right timing to avoid getting hit by the taxi.
+4. Verify that the character jumps over the taxi.
+5. Continue jumping over taxi's.
+Expected Outcome: The character successfully jumps over taxis, earning points with each successful jump, until the player fails to jump in time and gets hit by a taxi.
+
+Test Case 2: Score Increment
+
+Test Description: Ensure that the player's score increases correctly upon successful jump.
+
+Test Steps:
+1. Start the game.
+2. Observe the inital score, which should start at 0.
+3. Successful jump over the taxi.
+4. Verify that the score increases by 1.
+5. Repeat the process of jumping over taxis multiple times.
+Expected Outcome: The score increases by 1 with each successful jump.
+
+Test Case 3: Game Over Detection
+
+Test Description: Verify that the game correctly detects when the player fails to jump in time and gets hit by a taxi.
+
+Test Steps:
+1. Start the game.
+2. Observe the character and taxi movement.
+3. Fail to jump in time to avoid a taxi.
+4. Verify that the game displays a "Game Over" message.
+Expected Outcome:
+
+Test Case 4: Difficulty Progression
+
+Test Description: Ensure that the game's difficulty increases over time.
+
+Test Steps:
+1. Start the game.
+2. Continue playing the game.
+3. Verify as the player aquires more points increase the sped of the taxis.
+Expected Outcome: As the game progresses, the taxis would move faster. This requires the player to have quicker reflexes to avoid collisions. 
+
+Test Case 5: Menu Navigation
+
+Test Description: Test the navigation through the game's main menu.
+
+Test Steps:
+1. Start the game
+2. Navigate through the main menu options (Start Game, Options, Quit).
+3. Verify that each option is selectable and leads to the expected actions.
+Expected Outcome: The main menu should allow the player to navigate through options and select them.
