@@ -48,7 +48,7 @@ BUTTON_TEXT_SIZE = 20
 
 """Sets up the screen"""
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Doodle Jump")
+pygame.display.set_caption("Rectangle Jump")
 
 font = pygame.font.Font(None, FONT_SIZE)
 
